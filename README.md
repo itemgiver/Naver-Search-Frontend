@@ -1,12 +1,12 @@
-# Naver-FE-SSR
+# Naver-Search-Frontend
 
 ## Introduction
 
-Naver-FE-SSR은 3가지 검색 키워드에 대한 검색 화면을 보여줍니다. 실제 Naver 서비스와 유사하게 UI를 디자인하고 React를 이용해 화면을 만들었습니다. 불국사, 독립일기, 샴고양이 키워드에 대해 Server Side Rendering된 결과물을 유저에게 보여줍니다. MSA의 장점을 살려 Web Server와 Render Server를 분리하였고 Web Server는 json 데이터를 Render Server한테 보내고 Render Server는 Rendering된 HTML 코드를 돌려줍니다.
+This project is an implementation of Naver's search website. These days, millions of people visit Naver's search website, so Naver Frontend teams are using Server-Side-Rendering and Microservices Architecture. Therefore we tried to make our website similar to the Naver Search website using these technologies.
 
 ## Demo Link
 
-The demo link below is deployed using AWS EC2. When you access the link and refresh(`F5`) the webpage, search keywords and screens change randomly. \
+The demo link below was deployed using AWS EC2. When you access the link and refresh(`F5`) the webpage, search keywords and screens will change randomly. \
 http://ec2-3-17-186-117.us-east-2.compute.amazonaws.com:3000/
 
 ## Software Architecture
