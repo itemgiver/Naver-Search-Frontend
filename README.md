@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project is an implementation of Naver's search website. These days, millions of people visit Naver's search website, so the Naver Frontend team is using Server-Side-Rendering and Microservices Architecture to handle many users. Therefore we tried to make our website similar to the Naver Search website using these technologies.
+This project is an implementation of the Naver search website. These days, millions of people visit Naver's search website, so the Naver Frontend team is using Server-Side-Rendering and Microservices Architecture to handle many users. Therefore we tried to make our website similar to the Naver Search website using these technologies.
 
 ## Demo Link
 
