@@ -2,11 +2,11 @@
 
 ## Introduction
 
-This project is an implementation of Naver's search website. These days, millions of people visit Naver's search website, so Naver Frontend teams are using Server-Side-Rendering and Microservices Architecture. Therefore we tried to make our website similar to the Naver Search website using these technologies.
+This project is an implementation of Naver's search website. These days, millions of people visit Naver's search website, so Naver Frontend teams are using Server-Side-Rendering and Microservices Architecture to handle many users. Therefore we tried to make our website similar to the Naver Search website using these technologies.
 
 ## Demo Link
 
-The demo link below was deployed using AWS EC2. When you access the link and refresh(`F5`) the webpage, search keywords and screens will change randomly. \
+The demo link below was deployed using AWS EC2. When you access the link and refresh the webpage, search keywords and screens will change randomly. \
 http://ec2-3-17-186-117.us-east-2.compute.amazonaws.com:3000/
 
 ## Software Architecture
@@ -29,7 +29,7 @@ http://ec2-3-17-186-117.us-east-2.compute.amazonaws.com:3000/
 
 <img src="https://user-images.githubusercontent.com/87184009/147715465-eeea8299-f0cd-40e2-9399-7b3aba232da6.gif" alt="drawing" width="100%"/>
 
-### Independence Diary
+### Independent Diary
 
 <img src="https://user-images.githubusercontent.com/87184009/147715493-951c48ae-9cd3-438b-b6f9-2a592b7454db.gif" alt="drawing" width="100%"/>
 
