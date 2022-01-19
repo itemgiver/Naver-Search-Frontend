@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project is an implementation of the Naver search website. These days, millions of people visit Naver's search website, so the Naver Frontend team is using Server-Side-Rendering and Microservices Architecture to handle many users. Therefore we tried to make our website similar to the Naver Search website using these technologies.
+This project is an implementation of the Naver search website. These days, millions of people visit the Naver search website, so the Naver Frontend team is using Server-Side-Rendering and Microservices Architecture to handle many users. Therefore we tried to make our website similar to the Naver Search website using these technologies.
 
 ## Demo Link
 
@@ -11,12 +11,12 @@ http://ec2-3-17-186-117.us-east-2.compute.amazonaws.com:3000/
 
 ## Software Architecture
 
-1. Users access our website by clicking our demo link url.
-2. They can also specify the keyword at the end of the url that they want to search. \
+1. Users access our website by clicking our demo link URL.
+2. They can also specify the keyword at the end of the URL that they want to search. \
    (ex. http://ec2-3-17-186-117.us-east-2.compute.amazonaws.com:3000/?keys=bulguksa)
 4. If there is no keyword, WebServer will randomly select one of the three keywords and display it. Three keywords are (`keys=bulguksa`, `keys=diary`, `keys=sham`)
 5. WebServer retrieves JSON file that corresponds to the keyword from internal DB and sends a post request to RenderServer.
-6. RenderServer builds HTML code using JSON file that contains rendering form, image address, background colors, dates, blog previews, and news information, etc.
+6. RenderServer builds HTML code using JSON file that contains rendering form, image address, background colors, dates, blog previews, news information, etc.
 7. WebServer receives HTML code from RenderServer and shows it to users.
 
 ![image](https://user-images.githubusercontent.com/87184009/145199863-3b15798c-fb44-437e-ac49-37de14f38eb9.png)
