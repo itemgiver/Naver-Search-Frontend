@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project is an implementation of Naver's search website. These days, millions of people visit Naver's search website, so Naver Frontend teams are using Server-Side-Rendering and Microservices Architecture to handle many users. Therefore we tried to make our website similar to the Naver Search website using these technologies.
+This project is an implementation of Naver's search website. These days, millions of people visit Naver's search website, so the Naver Frontend team is using Server-Side-Rendering and Microservices Architecture to handle many users. Therefore we tried to make our website similar to the Naver Search website using these technologies.
 
 ## Demo Link
 
@@ -23,16 +23,23 @@ http://ec2-3-17-186-117.us-east-2.compute.amazonaws.com:3000/
 
 ## Website Preview
 
+### Bulguksa
 
-
-### Bulguksa Temple
+Bulguksa is a head temple of the Jogye Order of Korean Buddhism and encompasses six National treasures of South Korea. It is located on the slopes of Mount Toham. \
+http://ec2-3-17-186-117.us-east-2.compute.amazonaws.com:3000/?keys=bulguksa
 
 <img src="https://user-images.githubusercontent.com/87184009/147715465-eeea8299-f0cd-40e2-9399-7b3aba232da6.gif" alt="drawing" width="100%"/>
 
 ### Independent Diary
 
+Independent diary is a daily webtoon in South Korea, and it is one of the most popular webtoons in South Korea. \
+http://ec2-3-17-186-117.us-east-2.compute.amazonaws.com:3000/?keys=diary
+
 <img src="https://user-images.githubusercontent.com/87184009/147715493-951c48ae-9cd3-438b-b6f9-2a592b7454db.gif" alt="drawing" width="100%"/>
 
 ### Siamese Cat
+
+Siamese cat is one of the first distinctly recognized breeds of Asian cats. \
+http://ec2-3-17-186-117.us-east-2.compute.amazonaws.com:3000/?keys=sham
 
 <img src="https://user-images.githubusercontent.com/87184009/147715486-8696367e-572f-41db-a765-6632bc2de604.gif" alt="drawing" width="100%"/>
